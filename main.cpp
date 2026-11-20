@@ -32,9 +32,9 @@ Description...:A simple math tutor for young children. The program displays the 
 #include <string> // std::string and text handling
 #include <cstdlib> // rand and srand handling
 #include <ctime> // time(), used for random seed
-#include <limits> // numeric_limits, for input validation
 #include <vector> // library to handle vector
-#include <iomanip> // setw and setfill, used for the summary report
+
+#include "math_tutor.h" // Header file all the function prototypes
 
 using namespace std;
 

@@ -4,4 +4,6 @@ project(MathTutorV5)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(MathTutorV5
-        main.cpp)
+        main.cpp
+        math_tutor.h
+        math_tutor.cpp)
